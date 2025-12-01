@@ -4,4 +4,4 @@
 
 - `npm i`
 - `composer install`
-- `composer run dev`
+- `php artisan serve`

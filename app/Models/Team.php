@@ -12,6 +12,8 @@ class Team extends Model
 
     public $timestamps = false;
 
+    public $primaryKey ='team_id';
+
     public function players(): BelongsToMany
     {
         return $this->belongsToMany(Player::class, 'player_teams', 'team_id', 'player_id');

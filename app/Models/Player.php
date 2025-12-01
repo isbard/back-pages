@@ -12,6 +12,7 @@ class Player extends Model
 
     public $timestamps = false;
 
+    public $primaryKey = 'player_id';
 
     public function Team(): BelongsToMany
     {
